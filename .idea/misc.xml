@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/drawable/dialog_bg.xml" value="0.21041666666666667" />
         <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/drawable/rounded.xml" value="0.3828125" />
         <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/layout/flower_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/layout/nextact.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/layout/text.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/Projects/Nashibah/app/src/main/res/layout/text_layout.xml" value="0.190625" />
       </map>
     </option>
   </component>

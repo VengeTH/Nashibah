@@ -1,30 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellow">
 
+    <!-- Button to trigger the flower popup -->
+
+    <!-- ImageView for the flower -->
+
     <Button
         android:id="@+id/popup"
-        android:layout_width="291dp"
-        android:layout_height="354dp"
-        android:layout_marginBottom="124dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text=":P"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageView
+        android:id="@+id/flowerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/popup"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- TextView to display text after flower popup is dismissed -->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press the button, mahal"
+        android:layout_marginTop="35dp"
+        android:text="Hi, Nabilabs!\nFirst of all, I am made this application for me to apologize sa lahat ng mga sinabi/nasabi ko sa'yo kagabi dahil sa galit ko. Actually hindi lang kagabi, sa lahat ng nasabi ko sa 'yo ever since before pa. I know na hindi sapat 'tong android application na ginawa ko troughout this day para humingi ako ng tawad sa 'yo pero gusto ko lang malaman mo na sincere ako sa pag hingi ng tawad sa 'yo at talagang humihingi ako ng paumanhin sa lahat ng nasabi ko kagabi. alam kong lubhang naapektuhan ka sa sinabi ko, alam kong nasaktan at umiyak ka sa sinabi ko pero hindi ko na maibabalik 'yon, hindi ko na mababawi 'yon. at lalong alam ko rin na walang epekto ang pag hingi ng tawad ko sa 'yo. pero kahit na ganoon naman ay gumawa ako ng effort para makagawa ng android application para malaman mong sincere talaga ako sa paghingi ng tawad sa 'yo. Hindi nga pala ako pumasok ngayong araw dahil sportsfest palang kaya 'wag kang mag taka if wala akong updates sa 'yo dahil simula kanina ay hindi rin ako lumabas ng bahay, gumising lang ako nang umaga para pumasok sana pero inaantok parin ako at kulang sa tulog. nagising ako around 1 na nun at kumain ng tanghalian, after non ay nag-iisip ako kung paano humingi ng tawad sa'yo at eto lang ang naisip ko maliban sa website. Mas gusto kong eto gawin ko dahil mas mahirap 'to para naman ramdam mo effort ko hehe. pero ayan nagyari buong araw. gusto ko lang talagang humingi ng tawad sa 'yo at sana SANA mapatawad mo parin ako, irog ko. I'm sorry din pala kung ang pangit ng design neto or kulang and also kung wala masyadong animations dahil mahina talaga ako sa designings and also ginamit ko yung mga paborito mong kulay which is black, white, yellow, and purple dahil ayan lang ang alam ko. Nashibah, taos puso akong humihingi ng tawad sa 'yo upang magkabati na tayo, hindi ko talaga kayang mawala ka. hindi ko ring intentiong sabihan ka nang mga ganung salita, lalong lalo na sa mga salitang makakasakit sa 'yo. talagang wala lang akong kontrol sa galit ko ngunit alam kong hindi iyon rason para makapagbitaw ako ng mga ganoong kasasakit na salita. Mahal, talagang  mahal na mahal kita at ayokong mawala ka kaya I'm giving my all in this android application I made this day."
         android:textColor="@color/txt"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/press"
+        app:layout_constraintBottom_toTopOf="@+id/popup"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
